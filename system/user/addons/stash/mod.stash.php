@@ -53,6 +53,16 @@ class Stash {
     private static $_is_human = TRUE;
     private static $_cache;
 
+    private $EE;
+    private $file_extensions;
+    private $stash_cookie_enabled ;
+    private $default_refresh ;
+    private $prune ;
+    private $prune_probability;
+    private $invalidation_period ;
+    private $parse_if_in  ;
+    private $include_query_str  ;
+
     /*
      * Constructor
      */
